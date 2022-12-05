@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
     public GameObject Set01;
+    public GameObject Set02;
     //public GameObject planeSet02;
     //public GameObject ballPrefab;
     //public GameObject[] set01;
@@ -23,9 +24,11 @@ public class Shooter : MonoBehaviour
     IEnumerator fireShapes()
     {
         fire01();
-        yield return new WaitForSeconds(3f);
-        //fire02();
-
+        yield return new WaitForSeconds(12f);
+        Destroy(Set01);
+        fire02();
+        yield return new WaitForSeconds(12f);
+        Destroy(Set02);
     }
 
     public void fire01()
@@ -46,7 +49,7 @@ public class Shooter : MonoBehaviour
     }
     public void fire02()
     {
-        
+        Set02.SetActive(true);
         //Instantiate(planeSet01, new Vector3(0, 0, 0), Quaternion.identity);
         /*prefabShapes = new GameObject[set02.Length];
         for (int i = 0; i < set02.Length; i++)
