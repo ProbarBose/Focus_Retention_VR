@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    public GameObject planeSet01;
+    public GameObject Set01;
     //public GameObject planeSet02;
     //public GameObject ballPrefab;
     //public GameObject[] set01;
@@ -30,6 +30,7 @@ public class Shooter : MonoBehaviour
 
     public void fire01()
     {
+        Set01.SetActive(true);
         //Instantiate(planeSet01, new Vector3(0, 0, 0), Quaternion.identity);
         //prefabShapes = new GameObject[set01.Length];
         //for (int i = 0; i < set01.Length; i++)
@@ -45,6 +46,7 @@ public class Shooter : MonoBehaviour
     }
     public void fire02()
     {
+        
         //Instantiate(planeSet01, new Vector3(0, 0, 0), Quaternion.identity);
         /*prefabShapes = new GameObject[set02.Length];
         for (int i = 0; i < set02.Length; i++)
