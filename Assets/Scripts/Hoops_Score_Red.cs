@@ -5,6 +5,9 @@ using UnityEngine;
 public class Hoops_Score_Red : MonoBehaviour
 {
     public Scoring_System score;
+    public AudioSource positive;
+    public AudioSource negative;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +25,13 @@ public class Hoops_Score_Red : MonoBehaviour
         if (other.CompareTag("Red"))
         {
             score.AddScore(10);
+            positive.Play();
+
         }
         else
         {
             score.SubtractScore(5);
+            negative.Play();
         }
     }
 }

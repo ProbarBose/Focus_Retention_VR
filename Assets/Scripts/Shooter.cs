@@ -38,6 +38,11 @@ public class Shooter : MonoBehaviour
     public GameObject HoopSet10;
 
     public GameObject End_Screen;
+
+    public GameObject directHandR;
+    public GameObject directHandL;
+    public GameObject rayHandL;
+    public GameObject rayHandR;
     
     private void Start()
     {
@@ -98,6 +103,10 @@ public class Shooter : MonoBehaviour
         Destroy(HoopSet10);
         yield return new WaitForSeconds(4f);
         End_Screen.SetActive(true);
+        directHandR.SetActive(false);
+        directHandL.SetActive(false);
+        rayHandL.SetActive(true);
+        rayHandR.SetActive(true);
     }
 
     public void fire01()

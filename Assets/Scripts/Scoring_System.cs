@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Scoring_System : MonoBehaviour
 {
     public Text scoreText;
+    public Text focus;
     public int score = 0;
     public int maxScore;
     // Start is called before the first frame update
@@ -38,5 +39,21 @@ public class Scoring_System : MonoBehaviour
     void Update()
     {
         UpdateScore();
+        focusRetention();
+    }
+    public void focusRetention()
+    {
+        if (score <= 200 && score >= 150)
+        {
+            focus.text = "High";
+        }
+        else if (score < 150 && score >= 70)
+        {
+            focus.text = "Moderate";
+        }
+        else
+        {
+            focus.text = "Low";
+        }
     }
 }

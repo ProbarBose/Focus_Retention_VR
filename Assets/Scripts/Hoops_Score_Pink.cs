@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Hoops_Score_Pink : MonoBehaviour
 {
+    public AudioSource positive;
+    public AudioSource negative;
     public Scoring_System score;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +25,13 @@ public class Hoops_Score_Pink : MonoBehaviour
         if (other.CompareTag("Pink"))
         {
             score.AddScore(10);
+            positive.Play();
+
         }
         else
         {
             score.SubtractScore(5);
+            negative.Play();
         }
     }
 }
