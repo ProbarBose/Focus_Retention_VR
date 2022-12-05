@@ -17,11 +17,25 @@ public class Scoring_System : MonoBehaviour
     {
         score = score + newScore;
     }
+    public void SubtractScore(int newScore)
+    {
+        score = score - newScore;
+    }
     public void UpdateScore()
     {
         scoreText.text = "0" + score;
     }
-    // Update is called once per frame
+    
+    public void OnGrabAddScore()
+    {
+        AddScore(10);
+    }
+    public void OnGrabMinus()
+    {
+        SubtractScore(10);
+    }
+
+
     void Update()
     {
         UpdateScore();
