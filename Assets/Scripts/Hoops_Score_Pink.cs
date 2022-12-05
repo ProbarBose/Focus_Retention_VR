@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hoops_Score : MonoBehaviour
+public class Hoops_Score_Pink : MonoBehaviour
 {
     public Scoring_System score;
     // Start is called before the first frame update
@@ -19,6 +19,13 @@ public class Hoops_Score : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        score.AddScore(10);
+        if (other.CompareTag("Pink"))
+        {
+            score.AddScore(10);
+        }
+        else
+        {
+            score.SubtractScore(5);
+        }
     }
 }
