@@ -37,7 +37,8 @@ public class Shooter : MonoBehaviour
     public GameObject HoopSet09;
     public GameObject HoopSet10;
 
-    public GameObject End_Screen;
+    public GameObject endScreen;
+    public GameObject scoreScreen;
 
     public GameObject directHandR;
     public GameObject directHandL;
@@ -102,7 +103,8 @@ public class Shooter : MonoBehaviour
         Destroy(DisplaySet10);
         Destroy(HoopSet10);
         yield return new WaitForSeconds(4f);
-        End_Screen.SetActive(true);
+        endScreen.SetActive(true);
+        scoreScreen.SetActive(false);
         directHandR.SetActive(false);
         directHandL.SetActive(false);
         rayHandL.SetActive(true);

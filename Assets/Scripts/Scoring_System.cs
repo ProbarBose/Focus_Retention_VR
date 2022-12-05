@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Scoring_System : MonoBehaviour
 {
     public Text scoreText;
+    public Text finalScore;
     public Text focus;
     public int score = 0;
     public int maxScore;
@@ -25,6 +26,7 @@ public class Scoring_System : MonoBehaviour
     public void UpdateScore()
     {
         scoreText.text = "" + score;
+        finalScore.text = "" + score;
     }
 
     public void OnGrabAddScore()

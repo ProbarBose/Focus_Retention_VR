@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 29268231}
   m_Layer: 0
   m_Name: m_Cube
-  m_TagString: Yellow
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -813,7 +813,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -2743,7 +2743,7 @@ GameObject:
   - component: {fileID: 66960537}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2831,7 +2831,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -3166,7 +3166,7 @@ GameObject:
   - component: {fileID: 78365821}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3254,7 +3254,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -3775,7 +3775,7 @@ GameObject:
   - component: {fileID: 90092395}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3863,7 +3863,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -4167,7 +4167,7 @@ GameObject:
   - component: {fileID: 90409088}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4255,7 +4255,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -5916,7 +5916,7 @@ GameObject:
   - component: {fileID: 135373119}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6004,7 +6004,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -7366,7 +7366,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -11305,7 +11305,7 @@ GameObject:
   - component: {fileID: 264351466}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11393,7 +11393,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -14200,7 +14200,7 @@ GameObject:
   - component: {fileID: 351283118}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14288,7 +14288,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -15128,7 +15128,7 @@ GameObject:
   - component: {fileID: 381178341}
   - component: {fileID: 381178340}
   - component: {fileID: 381178339}
-  - component: {fileID: 381178338}
+  - component: {fileID: 381178342}
   m_Layer: 5
   m_Name: End_Screen_UI
   m_TagString: Untagged
@@ -15136,23 +15136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &381178338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381178337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &381178339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15218,6 +15201,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.5}
   m_SizeDelta: {x: 100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &381178342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381178337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &384370372
 GameObject:
   m_ObjectHideFlags: 0
@@ -17075,7 +17077,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -18275,7 +18277,7 @@ GameObject:
   - component: {fileID: 444265729}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18363,7 +18365,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -18929,7 +18931,7 @@ GameObject:
   - component: {fileID: 474568660}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19017,7 +19019,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -19242,7 +19244,7 @@ GameObject:
   - component: {fileID: 481284412}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19330,7 +19332,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -22521,7 +22523,7 @@ GameObject:
   - component: {fileID: 560356217}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22609,7 +22611,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -24467,7 +24469,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -25236,7 +25238,7 @@ GameObject:
   - component: {fileID: 617589021}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25324,7 +25326,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -26421,7 +26423,8 @@ MonoBehaviour:
   HoopSet08: {fileID: 802161500}
   HoopSet09: {fileID: 2132899559}
   HoopSet10: {fileID: 2047686247}
-  End_Screen: {fileID: 381178337}
+  endScreen: {fileID: 381178337}
+  scoreScreen: {fileID: 1220582859}
   directHandR: {fileID: 860344714}
   directHandL: {fileID: 184893414}
   rayHandL: {fileID: 523187358}
@@ -26811,7 +26814,7 @@ GameObject:
   - component: {fileID: 670817680}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26899,7 +26902,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -32757,7 +32760,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -36901,7 +36904,7 @@ GameObject:
   - component: {fileID: 900866916}
   m_Layer: 0
   m_Name: m_Cube
-  m_TagString: Yellow
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36989,7 +36992,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -39074,6 +39077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1825163350}
+  finalScore: {fileID: 1918690797}
   focus: {fileID: 1563343313}
   score: 0
   maxScore: 200
@@ -39110,7 +39114,7 @@ GameObject:
   - component: {fileID: 960867781}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39198,7 +39202,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -43515,7 +43519,7 @@ GameObject:
   - component: {fileID: 1069747633}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43603,7 +43607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -54730,7 +54734,7 @@ GameObject:
   - component: {fileID: 1423730808}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54818,7 +54822,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -55308,7 +55312,7 @@ GameObject:
   - component: {fileID: 1436735243}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55396,7 +55400,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -56606,7 +56610,7 @@ GameObject:
   - component: {fileID: 1466056716}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56694,7 +56698,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -58388,7 +58392,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -58878,7 +58882,7 @@ GameObject:
   - component: {fileID: 1542563433}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58966,7 +58970,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -59654,7 +59658,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -59879,7 +59883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 14.9, y: 31.91}
+  m_AnchoredPosition: {x: 24.8, y: 31.91}
   m_SizeDelta: {x: 100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1563343312
@@ -59917,7 +59921,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -61450,7 +61454,7 @@ GameObject:
   - component: {fileID: 1612097824}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61538,7 +61542,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -61773,7 +61777,7 @@ GameObject:
   - component: {fileID: 1616863994}
   m_Layer: 0
   m_Name: m_Cube
-  m_TagString: Yellow
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61861,7 +61865,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -68154,7 +68158,7 @@ GameObject:
   - component: {fileID: 1794509287}
   m_Layer: 0
   m_Name: m_Octahedron
-  m_TagString: Pink
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68242,7 +68246,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -68568,7 +68572,7 @@ GameObject:
   - component: {fileID: 1809209152}
   m_Layer: 0
   m_Name: m_Icosahedron
-  m_TagString: Red
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68656,7 +68660,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -69882,7 +69886,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -70076,7 +70080,7 @@ GameObject:
   - component: {fileID: 1855242004}
   m_Layer: 0
   m_Name: m_Cube
-  m_TagString: Yellow
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70164,7 +70168,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -71749,7 +71753,6 @@ GameObject:
   - component: {fileID: 1918690794}
   - component: {fileID: 1918690796}
   - component: {fileID: 1918690797}
-  - component: {fileID: 1918690798}
   m_Layer: 5
   m_Name: Final_Score_Numeric
   m_TagString: Untagged
@@ -71806,33 +71809,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 47654bb6cdf9dd34ab455c0354cb9570, type: 3}
+    m_Font: {fileID: 12800000, guid: 4ceca1be933c4bd42858d11583092521, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 150
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &1918690798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918690793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c40d7d41f653ac439aef3b6e7a55338, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 960060801}
-  finalScore: {fileID: 1918690797}
 --- !u!1 &1919747977
 GameObject:
   m_ObjectHideFlags: 0
@@ -74540,7 +74529,7 @@ GameObject:
   - component: {fileID: 2002631053}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74628,7 +74617,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -79290,7 +79279,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -79909,7 +79898,7 @@ GameObject:
   - component: {fileID: 2111192750}
   m_Layer: 0
   m_Name: m_Sphere
-  m_TagString: Red
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79997,7 +79986,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -81754,7 +81743,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -81964,7 +81953,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -82145,7 +82134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
@@ -82326,7 +82315,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 960060801}
         m_TargetAssemblyTypeName: Scoring_System, Assembly-CSharp
         m_MethodName: SubtractScore
         m_Mode: 3
