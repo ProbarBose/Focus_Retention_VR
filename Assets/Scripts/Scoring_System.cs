@@ -13,19 +13,19 @@ public class Scoring_System : MonoBehaviour
     {
         score = 0;
     }
-    public void AddScore(int newScore)
+    public void AddScore(int addScore)
     {
-        score = score + newScore;
+        score = score + addScore;
     }
-    public void SubtractScore(int newScore)
+    public void SubtractScore(int subScore)
     {
-        score = score - newScore;
+        score = score - subScore;
     }
     public void UpdateScore()
     {
-        scoreText.text = "0" + score;
+        scoreText.text = "" + score;
     }
-    
+
     public void OnGrabAddScore()
     {
         AddScore(10);
@@ -34,7 +34,6 @@ public class Scoring_System : MonoBehaviour
     {
         SubtractScore(10);
     }
-
 
     void Update()
     {
