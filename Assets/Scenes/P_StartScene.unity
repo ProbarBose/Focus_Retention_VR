@@ -8711,7 +8711,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1848457012}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -20605,6 +20605,7 @@ MonoBehaviour:
   directHandL: {fileID: 0}
   rayHandL: {fileID: 0}
   rayHandR: {fileID: 0}
+  taskcompleted: {fileID: 0}
 --- !u!23 &637799489
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34595,7 +34596,7 @@ RectTransform:
   m_Children:
   - {fileID: 1563496959}
   m_Father: {fileID: 1848457012}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -53457,8 +53458,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1100290122}
   - {fileID: 256476696}
+  - {fileID: 1100290122}
   m_Father: {fileID: 54442579}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -55431,8 +55432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c40d7d41f653ac439aef3b6e7a55338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 960060801}
-  finalScore: {fileID: 1918690797}
 --- !u!1 &1919747977
 GameObject:
   m_ObjectHideFlags: 0
@@ -61675,7 +61674,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1772745026}
+      - m_Target: {fileID: 763259537}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
