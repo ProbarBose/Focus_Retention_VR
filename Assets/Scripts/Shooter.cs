@@ -44,6 +44,8 @@ public class Shooter : MonoBehaviour
     public GameObject directHandL;
     public GameObject rayHandL;
     public GameObject rayHandR;
+
+    public AudioSource taskcompleted;
     
     private void Start()
     {
@@ -104,6 +106,7 @@ public class Shooter : MonoBehaviour
         Destroy(HoopSet10);
         yield return new WaitForSeconds(4f);
         endScreen.SetActive(true);
+        taskcompleted.Play();
         scoreScreen.SetActive(false);
         directHandR.SetActive(false);
         directHandL.SetActive(false);
